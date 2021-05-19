@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="ub" fetch="https://github.com/Unknownbitch07/" />
+
+# Hals
+    <remove-project name="android_hardware_qcom_audio" />
+    <remove-project name="android_hardware_qcom_display" />
+    <remove-project name="android_hardware_qcom_media" />
+    <project path="hardware/qcom-caf/msm8996/audio" name="R-Hals" groups="qcom,qcom_audio" remote="ub" revision="audio-r" />
+    <project path="hardware/qcom-caf/msm8996/display" name="R-Hals" groups="pdk,qcom,qcom_display" remote="ub" revision="display-r" />
+    <project path="hardware/qcom-caf/msm8996/media" name="R-Hals" groups="qcom" remote="ub" revision="media-r" />
+
+</manifest>
