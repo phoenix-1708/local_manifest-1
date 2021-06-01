@@ -4,12 +4,12 @@
         <remote name="Unknownbitch07"
                 fetch="https://github.com/Unknownbitch07" />
 
-        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Unknownbitch07" revision="ssos-11.0" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="Unknownbitch07" revision="ssos-11.0" clone-depth="1" />
+        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Unknownbitch07" revision="11" clone-depth="1" />
+        <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="Unknownbitch07" revision="11" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="Unknownbitch07" revision="11.0" clone-depth="1" />
 
         <remote name="vendor"
-                fetch="https://gitlab.com/Unknownbitch07" />"
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="vendor" revision="eleven" clone-depth="1" />
-
+                fetch="https://github.com/PalladiumOS-Devices" />
+        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="vendor" revision="11" clone-depth="1" />
+        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="vendor" revision="11" clone-depth="1" />
 </manifest>
