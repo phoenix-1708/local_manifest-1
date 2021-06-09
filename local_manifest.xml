@@ -9,6 +9,6 @@
         <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="Unknownbitch07" revision="eleven" clone-depth="1" />
 
         <remote name="vendor"
-                fetch="https://gitlab.com/Abhinavgupta371/proprietary_vendor_xiaomi" />
+                fetch="https://gitlab.com/Abhinavgupta371" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="vendor" revision="wip" clone-depth="1" />
 </manifest>
