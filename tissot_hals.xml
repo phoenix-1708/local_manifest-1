@@ -7,7 +7,9 @@
     <remove-project name="android_hardware_qcom_display" />
     <remove-project name="android_hardware_qcom_media" />
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="ub" revision="lineage-18.1-caf-msm8996" />
-    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="ub" revision="lineage-18.1-caf-msm8996" />
-    <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom" remote="ub" revision="lineage-18.1-caf-msm8996" />
+    
+    <remote name="abhinav" fetch="https://github.com/Abhinavgupta371" />
+    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="abhinav" revision="lineage-18.1-caf-msm8996" />
+    <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom" remote="abhinav" revision="lineage-18.1-caf-msm8996" />
 
 </manifest>
