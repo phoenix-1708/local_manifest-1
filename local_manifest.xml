@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="ub"
+        <remote name="ub7"
                 fetch="https://github.com/ShapeShiftOS-Devices" />
 
-        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="ub" revision="android_11" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="ub" revision="android_11" clone-depth="1" />
+        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="ub7" revision="android_11" clone-depth="1" />
+        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="ub7" revision="android_11" clone-depth="1" />
         
         <remote name="pe"
                 fetch="https://github.com/PixelExperience-Devices" />
