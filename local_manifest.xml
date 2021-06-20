@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="Unknownbitch07"
-                fetch="https://github.com/Unknownbitch07" />
+        <remote name="ub"
+                fetch="https://github.com/ShapeShiftOS-Devices" />
 
-        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Unknownbitch07" revision="11" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="Unknownbitch07" revision="11" clone-depth="1" />
+        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="ub" revision="android_11" clone-depth="1" />
+        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="ub" revision="android_11" clone-depth="1" />
         
         <remote name="pe"
                 fetch="https://github.com/PixelExperience-Devices" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="pe" revision="wip" clone-depth="1" />
 
         <remote name="vendor"
-                fetch="https://gitlab.com/Abhinavgupta371" />
-        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="vendor" revision="wip" clone-depth="1" />
+                fetch="https://github.com/PalladiumOS-Devices" />
+        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="vendor" revision="11" clone-depth="1" />
+        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="vendor" revision="11" clone-depth="1" />
 </manifest>
