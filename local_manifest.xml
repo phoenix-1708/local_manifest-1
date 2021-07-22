@@ -10,5 +10,15 @@
         <project path="vendor/xiaomi/msm8953-common" name="android_vendor_xiaomi_tissot" remote="ub7" revision="msm8953-common" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="kernel" remote="ub7" revision="eleven" clone-depth="1" />
         <remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="ub7" revision="eleven" clone-depth="1" />                  
+        <project path="frameworks/base" name="android_frameworks_base" remote="ub7" revision="eleven" clone-depth="1" />
+
+### Removing and cloning Telephony stuff ###
+        <remove-project name="android_packages_services_Telephony" />   
+        <remove-project name="android_frameworks_opt_telephony" />
+        <remove-project name="android_vendor_codeaurora_telephony" />
+
+        <remote name="telephony" fetch="https://github.com/PixelExperience" />
+        <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="telephony" revision="eleven" />
+        <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="telephony" revision="eleven" />
+        <project path="packages/services/Telephony" name="packages_services_Telephony" remote="telephony" revision="eleven" />
 </manifest>
