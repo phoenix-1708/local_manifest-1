@@ -11,10 +11,8 @@
         <project path="kernel/xiaomi/msm8953" name="kernel" remote="ub7" revision="eleven" clone-depth="1" />
 
 ### Clone FWB
-        <remote name="ashutosh"
-                fetch="https://github.com/AshutoshSundresh" />
         <remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="ashutosh" revision="android_11" clone-depth="1" />
+        <project path="frameworks/base" name="android_frameworks_base" remote="ub7" revision="eleven" clone-depth="1" />
 
 ### Removing and cloning Telephony stuff ###
         <remove-project name="android_packages_services_Telephony" />   
