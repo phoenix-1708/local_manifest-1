@@ -8,8 +8,8 @@
     <remove-project name="android_hardware_qcom_media" />
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="ub" revision="lineage-18.1-caf-msm8996" />
     
-    <remote name="pixel" fetch="https://github.com/PixelExperience" />
-    <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" groups="pdk,qcom,qcom_display" remote="pixel" revision="eleven" />
-    <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" groups="qcom" remote="pixel" revision="eleven" />
+    <remote name="hal" fetch="https://github.com/PixelExperience" />
+    <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" groups="pdk,qcom,qcom_display" remote="hal" revision="eleven" />
+    <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" groups="qcom" remote="hal" revision="eleven" />
 
 </manifest>
