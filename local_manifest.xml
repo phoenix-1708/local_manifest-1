@@ -4,7 +4,7 @@
         <remote name="ub"
                 fetch="https://github.com/Unknownbitch07" />
 
-        <project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="ub" revision="eleven" clone-depth="1" />
+        <project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="ub" revision="dot-11" clone-depth="1" />
 
         <remote name="sairam"
                 fetch="https://github.com/sairam1411" />"
