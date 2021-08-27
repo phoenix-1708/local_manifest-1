@@ -14,4 +14,5 @@
                 fetch="https://github.com/LineageOS" />
 
 	<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="los7" />
+	<project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" revision="lineage-18.1-caf" remote="los7" />
 </manifest>
