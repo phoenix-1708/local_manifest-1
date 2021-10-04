@@ -12,5 +12,5 @@
     <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" groups="qcom" remote="mediahal" revision="eleven" />
 
     <remote name="displayhal" fetch="https://github.com/Jabiyeff-Project" />
-    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="displayhal" revision=" 11.0-9.6,3" />
+    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="displayhal" revision="11.0-9.6,3" />
 </manifest>
