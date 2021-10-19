@@ -9,6 +9,8 @@
 
         <remote name="glassy"
                 fetch="https://github.com/glassydan" />
-        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="glassy" revision="11" clone-depth="1" />
-        <project path="vendor/xiaomi" name="vendor" remote="glassy" revision="eleven" clone-depth="1" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="glassy" revision="eleven" clone-depth="1" />
+        <remote name="vendor"
+                fetch="https://github.com/Evolution-X-Devices" />
+        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="vendor" revision="elle" clone-depth="1" />
 </manifest>
