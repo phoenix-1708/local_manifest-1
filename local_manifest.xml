@@ -11,15 +11,4 @@
                 fetch="https://github.com/glassydan" />
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="glassy" revision="11" clone-depth="1" />
         <project path="vendor/xiaomi" name="vendor" remote="glassy" revision="eleven" clone-depth="1" />
-
-### Removing and cloning Telephony stuff ###
-        <remove-project name="android_packages_services_Telephony" />   
-        <remove-project name="android_frameworks_opt_telephony" />
-        <remove-project name="android_vendor_codeaurora_telephony" />
-
-        <remote name="telephony" 
-                fetch="https://github.com/PixelExperience" />
-        <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="telephony" revision="eleven" />
-        <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="telephony" revision="eleven" />
-        <project path="packages/services/Telephony" name="packages_services_Telephony" remote="telephony" revision="eleven" />
 </manifest>
