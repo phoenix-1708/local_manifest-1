@@ -13,4 +13,15 @@
         <remote name="vendor"
                 fetch="https://github.com/Evolution-X-Devices" />
         <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="vendor" revision="elle" clone-depth="1" />
+        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="vendor" revision="elle" clone-depth="1" />
+### Removing and cloning Telephony stuff ###
+        <remove-project name="android_packages_services_Telephony" />   
+        <remove-project name="android_frameworks_opt_telephony" />
+        <remove-project name="android_vendor_codeaurora_telephony" />
+
+        <remote name="telephony" 
+                fetch="https://github.com/PixelExperience" />
+        <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="telephony" revision="eleven" />
+        <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="telephony" revision="eleven" />
+        <project path="packages/services/Telephony" name="packages_services_Telephony" remote="telephony" revision="eleven" />
 </manifest>
